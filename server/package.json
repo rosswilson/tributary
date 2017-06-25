@@ -1,0 +1,16 @@
+{
+  "name": "tributary-server",
+  "version": "1.0.0",
+  "description": "Service to provide control and reporting capabilities for Tributary",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ross Wilson <me@rosswilson.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
