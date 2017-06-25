@@ -9,7 +9,3 @@ services:
     build: server
     ports:
       - "9102:8080"
-  ui:
-    build: ui
-    ports:
-      - "9103:80"

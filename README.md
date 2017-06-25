@@ -16,4 +16,3 @@ A docker image is built for each service and they're made available at the below
 |-|-|
 |nginx-rtmp|http://localhost:9101/stat|
 |api-server|http://localhost:9102/status|
-|ui|http://localhost:9103/|
