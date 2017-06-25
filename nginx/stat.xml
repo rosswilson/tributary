@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stat.xsl" ?>
+<rtmp>
+  <nginx_version>1.11.3</nginx_version>
+  <nginx_rtmp_version>1.1.4</nginx_rtmp_version>
+  <compiler>gcc 4.9.2 (Debian 4.9.2-10)</compiler>
+  <built>Aug 31 2016 05:29:32</built>
+  <pid>8</pid>
+  <uptime>142</uptime>
+  <naccepted>2</naccepted>
+  <bw_in>820864</bw_in>
+  <bytes_in>16491724</bytes_in>
+  <bw_out>0</bw_out>
+  <bytes_out>40233362</bytes_out>
+  <server>
+    <application>
+      <name>live</name>
+      <live>
+        <stream>
+          <name>test</name>
+          <time>61137</time>
+          <bw_in>815648</bw_in>
+          <bytes_in>3045516</bytes_in>
+          <bw_out>0</bw_out>
+          <bytes_out>0</bytes_out>
+          <bw_audio>70744</bw_audio>
+          <bw_video>744896</bw_video>
+          <client>
+            <id>14</id>
+            <address />
+            <time>61138</time>
+            <flashver>APSH 3,10</flashver>
+            <pageurl>nginx-auto-push</pageurl>
+            <dropped>0</dropped>
+            <avsync>32</avsync>
+            <timestamp>62345</timestamp>
+            <publishing />
+            <active />
+          </client>
+          <meta>
+            <video>
+              <width>1280</width>
+              <height>720</height>
+              <frame_rate>0</frame_rate>
+              <codec>H264</codec>
+              <profile>Baseline</profile>
+              <compat>0</compat>
+              <level>3.1</level>
+            </video>
+            <audio>
+              <codec>AAC</codec>
+              <profile>LC</profile>
+              <channels>1</channels>
+              <sample_rate>44100</sample_rate>
+            </audio>
+          </meta>
+          <nclients>1</nclients>
+          <publishing />
+          <active />
+        </stream>
+        <nclients>1</nclients>
+      </live>
+    </application>
+  </server>
+</rtmp>
