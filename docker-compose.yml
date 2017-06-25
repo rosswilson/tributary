@@ -1,0 +1,27 @@
+version: "3"
+services:
+  nginx-rtmp:
+    build: nginx
+    # working_dir: /usr/src/app
+    # environment:
+    #   - ENVIRONMENT=localhost
+    # volumes:
+    #   - .:/usr/src/app
+    ports:
+      - "1935:1935"
+      - "8085:8085"
+    expose:
+      - "1935"
+      - "8080"
+    # command: /bin/bash -c "./scripts/sandbox/sandboxBuild.sh"
+  #   links:
+  #     - static
+  server:
+    build: server
+    # volumes:
+      # - ../tap-static/webapp/static-versioned/build:/usr/local/apache2/htdocs/
+    # ports:
+      # - "8081:8081"
+    # expose:
+      # - "8081"
+    # command: /bin/bash -c "/usr/local/bin/httpd-foreground"
