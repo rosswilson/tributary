@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 const buildDir = path.join(__dirname, 'public/build')
 const nodeModulesDir = path.join(__dirname, 'node_modules')
-const indexFile = path.join(__dirname, 'src/app/index.js')
+const indexFile = path.join(__dirname, 'src/index.js')
 
 const config = {
   entry: {
